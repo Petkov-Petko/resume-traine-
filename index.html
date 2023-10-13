@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petkov Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Petkov (1).png"  alt="logo" class="logo">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Portfolio</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX</p>
+                <h1>Hi I'm Petko Petkov <br><span>from Bulgaria</span> </h1>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_3688.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos natus aspernatur obcaecati dolore deserunt harum atque temporibus, dolor illum unde sint fugit, veritatis, quae ratione recusandae dicta vel adipisci? Facilis?</p>
+                
+                    <div class="titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experiance</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app development</li>
+                            <li><span>Backend</span><br>Big data sites</li>
+                            <li><span>App development</span><br>Building IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>In the process of learning</span><br>No IT experience</li>                    
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>Naval Academy-Navigational bachelor</li>
+                            <li><span>2023</span><br>Soft-Uni(JavaScript Path)</li>
+                            <li><span>2023</span><br>Soft-Uni(Python PG-Basics)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
